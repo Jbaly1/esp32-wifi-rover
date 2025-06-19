@@ -2,11 +2,12 @@ import socket
 import time
 import keyboard
 
-ESP32_IP = '192.168.0.8' 
-PORT = 4210
+ESP32_IP = '[IP ADDRESS GOES HERE]' 
+PORT = 0000 #Replace this for port numbers 1024 and above
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
+# send UDP commands to the ESP32
 def send_command(command):
     sock.sendto(command.encode(), (ESP32_IP, PORT))
 
@@ -24,6 +25,7 @@ try:
             send_command('x')
         elif keyboard.is_pressed('b'):
             send_command('b')
+        #you can change these
 
             
         time.sleep(0.05)   
