@@ -38,7 +38,7 @@ This was a solo project focused on understanding embedded systems, basic electro
 (You can change these how you like)
 
 
-![ESP32 Rover in Action](rover-demo.gif)
+![ESP32 Rover in Action](media/rover-demo.gif)
 
 
 
