@@ -41,7 +41,7 @@ This was a solo project focused on understanding embedded systems, basic electro
 ## Hardware Photos
 
 ### Raspberry Pi (Custom Pocket Pi) Controller
-![Pocket Pi](media/pocketpi.jpeg)
+![Pocket Pi](media/pocket-pi.jpeg)
 
 ### Rover Build (Wiring + Components)
 ![Rover Hardware](media/rover.jpeg)
