@@ -22,6 +22,7 @@ const int udp_port = 4210;
 
 char incoming_packet[255];
 
+// Motor Control functions
 void forward(){
   digitalWrite(IN1, HIGH);
   digitalWrite(IN2, LOW);
@@ -64,7 +65,7 @@ void beep(){
 
 }
 
-
+// Setup & WiFi
 void setup() {
   pinMode(IN1, OUTPUT);
   pinMode(IN2, OUTPUT);
@@ -91,6 +92,7 @@ void setup() {
   analogWrite(ENB, 180);
 }
 
+// Recieve UDP packets and execute accordingly
 void loop() {
   int packet_size = udp.parsePacket();
   
