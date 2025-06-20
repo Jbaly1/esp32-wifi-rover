@@ -38,7 +38,17 @@ This was a solo project focused on understanding embedded systems, basic electro
 (You can change these how you like)
 
 
-![ESP32 Rover in Action](media/rover-demo.gif)
+## Hardware Photos
+
+### Raspberry Pi (Custom Pocket Pi) Controller
+![Pocket Pi](media/pocket-pi-setup.jpg)
+
+### Rover Build (Wiring + Components)
+![Rover Hardware](media/rover-hardware-build.jpg)
+
+### Live Demo
+![Rover Demo](media/rover-demo.gif)
+
 
 
 
